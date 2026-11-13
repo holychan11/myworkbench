@@ -1,0 +1,23 @@
+# ---- 密钥与环境变量 ----
+.env
+data/jwt.secret
+data/master.key
+
+# ---- 本地数据库 ----
+data/*.db
+data/*.db-*
+
+# ---- 前端依赖与构建产物 ----
+node_modules/
+dist/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# ---- 日志 / 系统 ----
+*.log
+Thumbs.db
+.DS_Store
